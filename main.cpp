@@ -26,7 +26,7 @@ while(read>>h>>w){
 	data.setheig(h);//將得到的值傳回class讓bmi計算
 	data.setweig(w);
 	bmi = data.countBMI(); 
-        write << fixed << setprecision(2) <<"\t"<< left << bmi<<"\t";	
+	write << "\t" << setprecision(4) << left << bmi<<"\t";	
 		if (bmi<15){
 		   write << "\t" << "Very severly underweight" << endl;
 		   }
